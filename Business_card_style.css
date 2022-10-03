@@ -1,0 +1,119 @@
+style1 {
+  text-align:center;
+  background-color:blue;
+  border:10px blue;
+  /*
+  header and footer 
+  */
+}
+
+.style2 {
+  text-align:center;
+  background: url("lejupielāde.jpg"); 
+  height: 100%;
+  width: 100%;
+  /*
+  full body backround
+  */
+}
+
+h1 {
+  font-family: 'verdana';
+  font-size: 36px;
+  color:rgb(207, 230, 105);
+  /*
+  header text only
+  */
+}
+
+h2 {
+  font-family: 'verdana';
+  font-size: 24px;
+  /*
+  title text
+  */
+}
+
+h3 {
+  font-family: 'Times';
+  font-size: 16px;
+  color:rgb(110, 86, 86);
+  /*
+  used in header and footer
+  */
+}
+
+p {
+  font-family: 'Times';
+  font-size: 16px;
+}
+
+
+.btn {
+  display: inline-block;
+  font-family: arial;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  /*
+  clickable button with center spacing
+  */
+}
+
+btn2 {
+  display: inline-block;
+  font-family: Times;
+  font-size: 16px;
+  text-align: left;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  /*
+  button with left orientation
+  */
+}
+
+div {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-right: 475px;
+  padding-left: 475px;
+  /*
+  spacing for the website
+  */
+}
+
+img {
+  padding-top: 50px;
+  text-align: center;
+  /*
+  spacing for the image
+  */
+}
+
+hr {
+background-color: black;
+height: 2px;
+width: 800px;
+/*
+  dividing line
+  */
+}
+
+body {
+  margin:0!important;
+}
+
+a:link {
+  color: blue
+}
+
+a:visited {
+  color: purple
+}
+
+a:hover {
+  color: lightskyblue
+}
